@@ -1,13 +1,13 @@
-const CACHE_NAME = "secretlinks-pwa-v230";
+const CACHE_NAME = "secretlinks-pwa-v231";
 const APP_SHELL = [
   "./",
   "./index.html",
-  "./style.css?v=203",
-  "./script.js?v=203",
-  "./manifest.webmanifest?v=230",
+  "./style.css?v=231",
+  "./script.js?v=231",
+  "./manifest.webmanifest?v=231",
   "./offline.html",
-  "./icons/icon-192.png?v=230",
-  "./icons/icon-512.png?v=230"
+  "./icons/icon-192.png?v=231",
+  "./icons/icon-512.png?v=231"
 ];
 
 self.addEventListener("install", (event) => {
